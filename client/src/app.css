@@ -1,0 +1,18 @@
+.chat {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  row-gap: 30px;
+  min-height: 100vh;
+  max-width: 800px;
+  min-width: 320px;
+  padding: 40px 15px;
+  margin: 0 auto;
+}
+
+.chat__form {
+  grid-row: 2;
+}
+
+.chat__input {
+  width: 100%;
+}
